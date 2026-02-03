@@ -4,10 +4,10 @@ This project implements a complete simulation of a shared bicycle management sys
 
 ## 🚀 Features
 
-**Hierarchical Organization:** Stations are structured in a binary tree, representing logical proximity or zones.
-**Fleet Management:** Registration, removal, and status queries for both bicycles and stations.
-**Trip History:** Tracks the history of trips (origin/destination) for every bicycle.
-**Rebalancing Algorithm (`subir_bicis`):** Moves bicycles from leaf stations toward the root to fill central stations, based on load priorities.
+* **Hierarchical Organization:** Stations are structured in a binary tree, representing logical proximity or zones.
+* **Fleet Management:** Registration, removal, and status queries for both bicycles and stations.
+* **Trip History:** Tracks the history of trips (origin/destination) for every bicycle.
+* **Rebalancing Algorithm (`subir_bicis`):** Moves bicycles from leaf stations toward the root to fill central stations, based on load priorities.
 * **Smart Assignment (`asignar_estacion`):** Recursively calculates "unoccupancy coefficients" of subtrees to determine the optimal location for introducing new bicycles.
 
 ## 🛠️ Build and Run
